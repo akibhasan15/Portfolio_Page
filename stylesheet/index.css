@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    margin: 0 50px;
+    background-image: url("../photo/damask.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+header {
+    position: relative;
+    border-bottom: 1px solid whitesmoke;
+    background: rgb(29, 28, 28);
+    padding: 20px;
+}
+
+header h2 {
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    letter-spacing: 0px;
+    display: inline;
+    font-size: 25px;
+}
+
+#nav-links {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 30%;
+    font-size: 18px;
+    margin: 0 10px 0 0;
+}
+
+#nav-links a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0 0 0 10px;
+}
+
+#nav-links a:hover {
+    color: blue;
+}
+
+#bio,
+#project,
+#contact {
+
+    font-size: 20px;
+    padding: 40px 20px 10px 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 0 20px 0px;
+    border-radius: 6px;
+}
+
+img {
+    border: 1px solid;
+    float: right;
+    width: 170px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+#main {
+    background: rgb(29, 28, 28);
+
+}
+
+.project-links {
+    padding: 20px;
+    display: block;
+    float: left;
+    width: 20%;
+    height: 100px;
+    border: 1px solid;
+    margin: 0 6.66%;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+
+
+}
+
+#container-1 {
+    float: left;
+    display: block;
+    width: 49.9999999%;
+    height: 150px;
+
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+ul li {
+    padding: 3px 0 3px 0;
+}
+
+i {
+    color: rgb(224, 222, 222);
+    padding-right: 12px;
+}
+
+footer {
+    text-align: center;
+}
+
+span {
+    color: rgb(252, 32, 32);
+    font-weight: bolder;
+}
